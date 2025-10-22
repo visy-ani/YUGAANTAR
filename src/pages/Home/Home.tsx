@@ -82,8 +82,15 @@ const YugaantarFest: React.FC = () => {
               alt="Location icon"
             />
           </section>
+          
           <div className={styles.actionButtons}>
-            <button className={styles.primaryButton}>Register Now</button>
+            <a 
+              href="https://unstop.com/college-fests/yugaantar-scaler-school-of-technology-bengaluru-karnataka-401155"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.primaryButton}>Register Now</button>
+            </a>
           </div>
 
           <section className={styles.countdown}>
